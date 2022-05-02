@@ -17,7 +17,6 @@ function getSumOfDigits(n) {
     n = String(n).split('').reduce((prev, current) => +prev + +current, 0);
   }
   return n;
- 
 }
 
 module.exports = {
